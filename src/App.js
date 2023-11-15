@@ -6,7 +6,7 @@ import { styles } from "./style";
 
 const App = () => {
   return (
-    <div className={`${styles.boxWidth} font-Roboto`}>
+    <div className={`${styles.boxWidth} hidden md:block font-Roboto`}>
       <div className={`${styles.flexCenter}`}>
         <Navbar />
         <Setting />
